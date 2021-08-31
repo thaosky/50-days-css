@@ -13,3 +13,10 @@
 
 ##Day 2 - Progress steps
 - Ý tưởng: Tạo 1 div cha bao gồm các div chứa step con và 1 div progress_line. Đặt div cha position relative, progress_line absolute. Div cha::before là progress mờ =))) Đại khái z
+
+##Day 3 - Hidden search
+- Ý tưởng: Tạo div cha relative chứa input và button search, input và btn css cho cùng kích thước, btn absolute nằm đè lên input. Khi click vào btn cho width của input rộng ra, đồng thời btn di chuyển sang phải cùng 1 độ lớn vs ô input. 
+- querySelector => lấy ra phần tử đầu tiên có selector thỏa mãn
+- querySelectorAll => lấy ra tất cả các phần tử có selector thỏa mãn
+- search.classList.toggle('class_name')
+- input.focus() 
