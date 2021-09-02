@@ -20,3 +20,12 @@
 - querySelectorAll => lấy ra tất cả các phần tử có selector thỏa mãn
 - search.classList.toggle('class_name')
 - input.focus() 
+
+##Day 4 - Blurry Loading
+- const convert = (num, in_min, in_max, out_min, out_max) => {
+return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
+} // Convert từ dải số này sang dải số khác:
+
+- css property: filter => dùng để áp dụng 1 số hiệu ứng cho phần tử ví dụ blur, brightness.... Như filter lúc chỉnh ảnh ý.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
